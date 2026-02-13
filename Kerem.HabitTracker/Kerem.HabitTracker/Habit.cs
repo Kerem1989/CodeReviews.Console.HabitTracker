@@ -8,6 +8,10 @@
         public string Name { get; set; }
         public DateTime Occurance { get; set; }
         
+        public Habit()
+        {
+            
+        }
         public Habit(string name, DateTime occurance)
         {
             this._name = name;
