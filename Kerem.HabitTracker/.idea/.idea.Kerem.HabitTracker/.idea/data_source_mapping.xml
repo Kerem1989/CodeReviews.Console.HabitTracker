@@ -2,5 +2,6 @@
 <project version="4">
   <component name="DataSourcePerFileMappings">
     <file url="file://$PROJECT_DIR$/Kerem.HabitTracker/HabitService.cs" value="8ede25fc-db78-41a7-a4df-d2a57ab3c151" />
+    <file url="file://$PROJECT_DIR$/Kerem.HabitTracker/SQLService.cs" value="8ede25fc-db78-41a7-a4df-d2a57ab3c151" />
   </component>
 </project>
