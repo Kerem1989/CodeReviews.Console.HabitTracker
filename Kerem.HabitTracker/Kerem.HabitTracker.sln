@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kerem.HabitTracker", "Kerem.HabitTracker\Kerem.HabitTracker.csproj", "{3A11A24D-481F-4105-AD3F-A697B97D3326}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kerem.HabitTracker.UnitTests", "Kerem.HabitTracker.UnitTests\Kerem.HabitTracker.UnitTests.csproj", "{8D1127A7-BD6C-424E-A57A-DCD46D296F45}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{3A11A24D-481F-4105-AD3F-A697B97D3326}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A11A24D-481F-4105-AD3F-A697B97D3326}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A11A24D-481F-4105-AD3F-A697B97D3326}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D1127A7-BD6C-424E-A57A-DCD46D296F45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D1127A7-BD6C-424E-A57A-DCD46D296F45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D1127A7-BD6C-424E-A57A-DCD46D296F45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D1127A7-BD6C-424E-A57A-DCD46D296F45}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

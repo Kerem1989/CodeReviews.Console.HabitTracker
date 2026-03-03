@@ -6,12 +6,13 @@ namespace Kerem.HabitTracker
     {
         static void Main()
         {
+            
             DataAccess dataAccess = new DataAccess();
             SqliteConnection connection = dataAccess.EstablishConnection();
+            dataAccess.DropHabitTable(connection);
             ConsoleMenu startProgram = new ConsoleMenu();
             dataAccess.CreateHabitTable(connection);
             startProgram.Menu();
-            dataAccess.DropHabitTable(connection);
         }
     }
 }
