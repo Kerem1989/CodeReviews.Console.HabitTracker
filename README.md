@@ -51,8 +51,8 @@ dotnet test
 
 ## What I Learned
 
-Working on this project was a fun and interesting experience. One of the highlights was using **ADO.NET directly** to talk to the SQLite database — manually writing `SqliteConnection`, `SqliteCommand`, and reading results with `SqliteDataReader`. It's a great way to see and understand the magic that happens under the hood.
+Working on this project was a fun and interesting experience. One of the highlights was using **ADO.NET directly** to talk to the SQLite database, manually writing `SqliteConnection`, `SqliteCommand`, and reading results with `SqliteDataReader`. It's a great way to see and understand the magic that happens under the hood.
 
-Coming from a Java background, **Spring Boot** abstracts away a huge amount of the database interaction — things like connection management, query execution, and result mapping are all handled for you by JPA/Hibernate. Working with raw ADO.NET made me appreciate both sides: ORMs are incredibly productive, but knowing what they're doing underneath makes you a much better developer.
+Coming from a Java background, **Spring Boot** abstracts away a huge amount of the database interaction, things like connection management, query execution, and result mapping are all handled for you by JPA/Hibernate. Working with raw ADO.NET made me appreciate both sides: ORMs are incredibly productive, but knowing what they're doing underneath makes you a much better developer.
 
-Writing **unit tests** with NUnit was also a valuable exercise. Testing input validation logic — even something as simple as checking for empty strings or negative numbers — builds the habit (pun intended) of thinking about edge cases and verifying behaviour in isolation. It's always worth doing.
+Writing **unit tests** with NUnit was also a valuable exercise. Testing input validation logic, even something as simple as checking for empty strings or negative numbers.
