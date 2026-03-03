@@ -82,7 +82,7 @@ namespace Kerem.HabitTracker ;
             Console.WriteLine();
             _sqlService.ViewAllCommand();
             Console.WriteLine("Please enter the id of the habit you want to update:");
-            int habitId = int.Parse(Console.ReadLine() ?? string.Empty);
+            int habitId = int.TryParse(Console.ReadLine() ?? string.Empty, out habitId) ? habitId : 0;
             bool validNumericalInput = ValidationHelper.ValidateNumericalInput(habitId);
             if (!validNumericalInput) return;
             

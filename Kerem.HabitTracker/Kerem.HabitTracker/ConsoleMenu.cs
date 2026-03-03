@@ -34,7 +34,10 @@ namespace Kerem.HabitTracker ;
                     case 4:
                         Console.WriteLine();
                         Console.WriteLine("Select 1 to update habit name or 2 to update the date:");
-                        int updateChoice = int.Parse(Console.ReadLine() ?? string.Empty);
+                        int updateChoice = int.TryParse(Console.ReadLine() ?? string.Empty, out updateChoice) ? updateChoice : 0;
+                        bool validNumericalInput = ValidationHelper.ValidateNumericalInput(updateChoice);
+                        if (!validNumericalInput) return;
+                        
                         if (updateChoice == 1) habitService.UpdateHabitName();
                         else if (updateChoice == 2) habitService.UpdateHabitDate();
                         else Console.WriteLine("Invalid option.");
