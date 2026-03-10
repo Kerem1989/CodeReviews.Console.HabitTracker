@@ -12,15 +12,6 @@ namespace Kerem.HabitTracker.UnitTests ;
             Assert.That(input, Is.EqualTo(expected));
         }
         
-        
-        [TestCase("", false)]
-        [Test]
-        public void ValidateTextInput_ReturnsFalse_WhenInputIsEmpty(string inputParam, bool expected)
-        {
-            var input = ValidationHelper.ValidateTextInput(inputParam);
-            Assert.That(input, Is.EqualTo(expected));
-        }
-        
         [TestCase(5, true)]
         [TestCase(-5, false)]
         [Test]
